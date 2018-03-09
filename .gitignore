@@ -1,0 +1,11 @@
+# IDE files
+.idea/*
+
+# Python files
+*.py[co]
+
+# Other files
+*.swp
+*.t[e]?mp
+*.log
+*.txt

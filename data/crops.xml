@@ -1,0 +1,10 @@
+<config>
+    <wheat>
+        <economics>
+            <increase>0.4</increase>
+            <decrease>0.7</decrease>
+            <min_value>600</min_value>
+            <max_value>1300</max_value>
+        </economics>
+    </wheat>
+</config>
