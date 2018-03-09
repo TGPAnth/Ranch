@@ -15,5 +15,4 @@ class Core:
     def init_crops(self, config):
         self.registry.crops = {}
         for crop_name, crop_data in config.crops.to_dict().items():
-            print(crop_name)
             self.registry.crops[crop_name] = Crop(**crop_data)

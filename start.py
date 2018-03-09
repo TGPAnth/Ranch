@@ -13,5 +13,5 @@ from src.core import Core
 from src.utils.registry import get_registry
 
 core = Core(config_directory='./data')
-print(get_registry().crops)
+print('Crops:', get_registry().crops)
 print(get_registry().configs.to_dict())
